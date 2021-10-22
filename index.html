@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Music-palyer</title>
 </head>
+
 <body>
 
-    
-    
+
+
+    <div class="player-container">
+        <div class="img-container">
+            <img src="https://source.unsplash.com/random">
+
+        </div>
+        <h2>Lovely</h2>
+        <h3>Billie Eilish</h3>
+        <audio src="" loop="loop"></audio>
+
+        <div class="progress-container" id="progress-container">
+            <button ><i class="fas fa-step-backward"></i></button>
+            <button ><i class="fas fa-play"></i></button>
+            <button ><i class="fas fa-step-forward"></i></button>
+        </div>
+        <!--slider-->
+
+        <div class="slider">
+            <input type="range" min="0" max="100" value="0">
+        </div>
+
+    </div>
+
+
+
 </body>
+
 </html>
